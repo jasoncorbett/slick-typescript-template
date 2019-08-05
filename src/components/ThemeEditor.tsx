@@ -14,7 +14,7 @@ export class ThemeEditor extends Component<Props> {
     render() {
         return(
             <Box>
-                {this.props.ThemeStore.name}
+                {this.props.theme.name}
             </Box>
         );
     }
